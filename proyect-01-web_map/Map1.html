@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_211cc936205b5a2ed3e5e1e0862e93fa {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_211cc936205b5a2ed3e5e1e0862e93fa" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_211cc936205b5a2ed3e5e1e0862e93fa = L.map(
+                "map_211cc936205b5a2ed3e5e1e0862e93fa",
+                {
+                    center: [-23.17, -65.79],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 8,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_12825f06e432c5f00e3fc9d07d533867 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_12825f06e432c5f00e3fc9d07d533867.addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var marker_6e970e9780b2be831ab2573729924b27 = L.marker(
+                [-24.063333, -65.745833],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_fc3e6e6740e777523017573fd651c574 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_ed4e64c70ce88d54fa5ad2a617961461 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6553f9707a74bc50b942b466d1556a30 = $(`<div id="html_6553f9707a74bc50b942b466d1556a30" style="width: 100.0%; height: 100.0%;">Nevado de Chañi + 5949.0</div>`)[0];
+                popup_ed4e64c70ce88d54fa5ad2a617961461.setContent(html_6553f9707a74bc50b942b466d1556a30);
+            
+        
+
+        marker_6e970e9780b2be831ab2573729924b27.bindPopup(popup_ed4e64c70ce88d54fa5ad2a617961461)
+        ;
+
+        
+    
+    
+                marker_6e970e9780b2be831ab2573729924b27.setIcon(icon_fc3e6e6740e777523017573fd651c574);
+            
+    
+            var marker_f4787fade391cc91cccf2077ce13f4bc = L.marker(
+                [-23.746944, -65.503611],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_235228ea8103292ef68b1dd551ac209d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_c913d8bf4f157bcdd5349d31a54cda63 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a2308bf5b720650d287c3c751885a32 = $(`<div id="html_7a2308bf5b720650d287c3c751885a32" style="width: 100.0%; height: 100.0%;">Cerro de los Siete Colores + nan</div>`)[0];
+                popup_c913d8bf4f157bcdd5349d31a54cda63.setContent(html_7a2308bf5b720650d287c3c751885a32);
+            
+        
+
+        marker_f4787fade391cc91cccf2077ce13f4bc.bindPopup(popup_c913d8bf4f157bcdd5349d31a54cda63)
+        ;
+
+        
+    
+    
+                marker_f4787fade391cc91cccf2077ce13f4bc.setIcon(icon_235228ea8103292ef68b1dd551ac209d);
+            
+    
+            var marker_78ad1da627ab6ccbf4f7078f8663e22b = L.marker(
+                [-22.540667, -66.97299],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_06203268e789d86a7a5046eca611c786 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5a077c705056daaf271b52ffef257b92 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1e4b59eb7344c6bcd3e53f9306a436d = $(`<div id="html_e1e4b59eb7344c6bcd3e53f9306a436d" style="width: 100.0%; height: 100.0%;">Cerro Vilama + 5685.0</div>`)[0];
+                popup_5a077c705056daaf271b52ffef257b92.setContent(html_e1e4b59eb7344c6bcd3e53f9306a436d);
+            
+        
+
+        marker_78ad1da627ab6ccbf4f7078f8663e22b.bindPopup(popup_5a077c705056daaf271b52ffef257b92)
+        ;
+
+        
+    
+    
+                marker_78ad1da627ab6ccbf4f7078f8663e22b.setIcon(icon_06203268e789d86a7a5046eca611c786);
+            
+    
+            var marker_73b85deebe2db27a0b575eecacce271f = L.marker(
+                [-22.935833, -66.965],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_f937f2bfb74cb7140cd9fe23721a5691 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dfc3981a058079d5b1eaa62947612a17 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c9b96b88467004f7adf15a7fa13d9ef = $(`<div id="html_5c9b96b88467004f7adf15a7fa13d9ef" style="width: 100.0%; height: 100.0%;">Nevado de San Pedro + nan</div>`)[0];
+                popup_dfc3981a058079d5b1eaa62947612a17.setContent(html_5c9b96b88467004f7adf15a7fa13d9ef);
+            
+        
+
+        marker_73b85deebe2db27a0b575eecacce271f.bindPopup(popup_dfc3981a058079d5b1eaa62947612a17)
+        ;
+
+        
+    
+    
+                marker_73b85deebe2db27a0b575eecacce271f.setIcon(icon_f937f2bfb74cb7140cd9fe23721a5691);
+            
+    
+            var marker_784efbe6ac115db22fe3fa8cc09bfbe8 = L.marker(
+                [-24.2, -64.51667],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_e2701809a4b2b13f171ba5c1f28bb080 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_a899c1896d341ab58140a8737e6e2325 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de38a46553f298ce888e5c2f8fb5c814 = $(`<div id="html_de38a46553f298ce888e5c2f8fb5c814" style="width: 100.0%; height: 100.0%;">Cerros de Pereyra + 2607.0</div>`)[0];
+                popup_a899c1896d341ab58140a8737e6e2325.setContent(html_de38a46553f298ce888e5c2f8fb5c814);
+            
+        
+
+        marker_784efbe6ac115db22fe3fa8cc09bfbe8.bindPopup(popup_a899c1896d341ab58140a8737e6e2325)
+        ;
+
+        
+    
+    
+                marker_784efbe6ac115db22fe3fa8cc09bfbe8.setIcon(icon_e2701809a4b2b13f171ba5c1f28bb080);
+            
+    
+            var marker_b6d2d6664b35cc13b3eda9d7a3a0b6fe = L.marker(
+                [-23.21, -65.25],
+                {
+}
+            ).addTo(map_211cc936205b5a2ed3e5e1e0862e93fa);
+        
+    
+            var icon_d83c64cd167bf8ff045c08c33531839b = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "info-sign",
+  "prefix": "glyphicon",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_26190a8128bf846288a354c97c1866ac = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e60c2c39306035b0551064b715f85f6e = $(`<div id="html_e60c2c39306035b0551064b715f85f6e" style="width: 100.0%; height: 100.0%;">Serranía de Hornocal + nan</div>`)[0];
+                popup_26190a8128bf846288a354c97c1866ac.setContent(html_e60c2c39306035b0551064b715f85f6e);
+            
+        
+
+        marker_b6d2d6664b35cc13b3eda9d7a3a0b6fe.bindPopup(popup_26190a8128bf846288a354c97c1866ac)
+        ;
+
+        
+    
+    
+                marker_b6d2d6664b35cc13b3eda9d7a3a0b6fe.setIcon(icon_d83c64cd167bf8ff045c08c33531839b);
+            
+</script>
+</html>

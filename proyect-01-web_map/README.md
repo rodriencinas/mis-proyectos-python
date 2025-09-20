@@ -6,8 +6,8 @@ Mi interés es mostrar los puntos más elevados de mi querida provincia de Jujuy
 
 ## Tecnologías
 - Python 3.15.3
-- Folium
-- Pandas 
+- Folium 0.20.0
+- Pandas 2.3.2
 
 ## Estado del proyecto
 🚧 En desarrollo
