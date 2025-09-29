@@ -5,7 +5,7 @@ import pandas
 #definimos la coordenadas del lugar que queremos mostrar cuando se abra la aplicación en el navegador
 mapa_jujuy = [-23.17, -65.79]
 #obtenemos algunos datos de nuestro archivo csv
-datos_jujuy = pandas.read_csv("../resources/Investigación.csv")
+datos_jujuy = pandas.read_csv("data/Investigación.csv")
 nombres_picos = datos_jujuy["Nombre del Pico"]
 altitudes = datos_jujuy["Altitud (m)"]
 latitudes = datos_jujuy["Latitud"]
